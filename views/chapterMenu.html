@@ -1,0 +1,14 @@
+<div id="chapterContainer" class="hay7">
+    <h2 id="chapterTitle" class="addBorder hay0">GETTING STARTED WITH FLASHTALKING EDU</h2>
+    <ul id="chapterNav" class="hay0" ng-repeat="chpt in card.chapters track by $index">
+        <li ng-click="chapterClicked()" class="currentnav">{{chpt.ch}}<span style="position: relative; float: right">{{chpt.duration}}</span></li>
+    </ul>
+</div>
+<aside id="chapterNavMenu" class="hay0">
+    <ul class="action_icons">
+        <li><img src="./assets/download_icon.gif" width="auto" height="100%"></li>
+        <li><img src="./assets/add_to_watchlist_icon.gif" width="auto" height="100%"></li>
+        <li><img id="chIcon" src="./assets/chapters_icon.gif" width="auto" height="100%"></li>
+        <li><img src="./assets/readMeFile_icon.gif" width="auto" height="100%"></li>
+    </ul>
+</aside>

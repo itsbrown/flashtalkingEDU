@@ -1,0 +1,241 @@
+{
+    "ftEdu" : [
+    {
+       "id" : "0001",
+        "name":"Standard ad",
+        "tag" : "FT EDU",
+        "img" : "videoPlacholder.gif",
+        "desc" : "Getting Started with flashtalking EDU",
+        "cta" : "",
+        "dlLink":"",
+        "video":"29820/67327_FTOfficeChicagoWestLoop.webm",
+        "chapters":[
+            {"ch": "Navigating in and out","duration" : "00:00:00"},
+            {"ch":"Ways to follow walkthroughs","duration" : "00:00:00"},
+            {"ch": "Finding and utilizing the README file","duration" : "00:00:00"},
+            {"ch": "Downloading Class Content","duration" : "00:00:00"},
+            {"ch": "Sharing Video tutorials","duration" : "00:00:00"},
+            {"ch": "Accessing Live help via Live Chat option","duration" : "00:00:00"}
+        ]
+    },
+    {
+       "id" : "0002",
+        "name":"Expandable",
+        "tag" : "FT EDU",
+        "img" : "videoPlacholder.gif",
+        "desc" : "Flashtalking Creative Interface",
+        "cta" : "",
+        "dlLink":"",
+        "video":"34568/70067_phoneAnimationOnly.webm",
+        "chapters":[
+            {"ch": "Keeping up with the FT news","duration" : "00:00:00"},
+            {"ch":"Where to ask Questions","duration" : "00:00:00"},
+            {"ch": "Live chat?","duration" : "00:00:00"},
+            {"ch": "going on from here","duration" : "00:00:00"},
+            {"ch": "next video","duration" : "00:00:00"},
+            {"ch": "chapter menu","duration" : "00:00:00"}
+        ]
+    },
+    {
+       "id" : "0003",
+        "name":"Instant ad",
+        "tag" : "FT EDU",
+        "img" : "videoPlacholder.gif",
+        "desc" : "Standard Instant ad flash unit",
+        "cta" : "",
+        "dlLink":"",
+        "video":"29820/67327_FTOfficeChicagoWestLoop.webm",
+        "chapters":[
+            {"Navigating in and out" : "00:00:00"},
+            {"Ways to follow walkthroughs" : "00:00:00"},
+            {"Finding and utilizing the README file" : "00:00:00"},
+            {"Downloading Class Content" : "00:00:00"},
+            {"Sharing Video tutorials" : "00:00:00"},
+            {"Accessing Live help via Live Chat option" : "00:00:00"}
+        ]
+    }],
+    "AS3" : [
+    {
+       "id" : "0004",
+        "name":"Standard ad",
+        "tag" : "AS3",
+        "img" : "videoPlacholder.gif",
+        "desc" : "Adding FT's add set up component in your Standard ad",
+        "cta" : "",
+        "dlLink":"",
+        "video":""
+    },
+    {
+       "id" : "0001",
+        "name":"Expandable",
+        "tag" : "AS3",
+        "img" : "videoPlacholder.gif",
+        "desc" : "standard Expandable ad unit",
+        "cta" : "",
+        "dlLink":"",
+        "video":""
+    },
+    {
+       "id" : "0005",
+        "name":"Web Capture",
+        "tag" : "AS3",
+        "img" : "videoPlacholder.gif",
+        "desc" : "Using Web Capture ads in your as3 ad unit",
+        "cta" : "",
+        "dlLink":"",
+        "video":""
+    },
+    {
+       "id" : "0006",
+        "name":"Instant ad",
+        "tag" : "AS3",
+        "img" : "videoPlacholder.gif",
+        "desc" : "Standard Instant ad flash unit",
+        "cta" : "",
+        "dlLink":"",
+        "video":""
+    }],
+    "AS2" : [
+    {
+       "id" : "0007",
+        "name":"Standard ad",
+        "tag" : "AS2",
+        "img" : "videoPlacholder.gif",
+        "desc" : "Adding FT's add set up component in your Standard ad",
+        "cta" : "",
+        "dlLink":"",
+        "video":""
+    },
+    {
+       "id" : "0008",
+        "name":"Expandable",
+        "tag" : "AS2",
+        "img" : "videoPlacholder.gif",
+        "desc" : "standard Expandable ad unit",
+        "cta" : "",
+        "dlLink":"",
+        "video":""
+    },
+    {
+       "id" : "0009",
+        "name":"Web Capture",
+        "tag" : "AS2",
+        "img" : "videoPlacholder.gif",
+        "desc" : "Using Web Capture ads in your as2 ad unit",
+        "cta" : "",
+        "dlLink":"",
+        "video":""
+    },
+    {
+       "id" : "0010",
+        "name":"Instant ad",
+        "tag" : "AS2",
+        "img" : "videoPlacholder.gif",
+        "desc" : "Standard Instant ad flash unit",
+        "cta" : "",
+        "dlLink":"",
+        "video":""
+    }],
+    "JS" : [
+    {
+       "id" : "0011",
+        "name":"Standard ad",
+        "tag" : "JS",
+        "img" : "videoPlacholder.gif",
+        "desc" : "Adding FT's add set up component in your Standard ad",
+        "cta" : "",
+        "dlLink":"",
+        "video":""
+    },
+    {
+       "id" : "0012",
+        "name":"Expandable",
+        "tag" : "JS",
+        "img" : "videoPlacholder.gif",
+        "desc" : "standard Expandable ad unit",
+        "cta" : "",
+        "dlLink":"",
+        "video":""
+    },
+    {
+       "id" : "0013",
+        "name":"Web Capture",
+        "tag" : "JS",
+        "img" : "videoPlacholder.gif",
+        "desc" : "Using Web Capture ads in your HTML 5 ad unit",
+        "cta" : "",
+        "dlLink":"",
+        "video":""
+    },
+    {
+       "id" : "0014",
+        "name":"Instant ad",
+        "tag" : "JS",
+        "img" : "videoPlacholder.gif",
+        "desc" : "Standard Instant ad flash unit",
+        "cta" : "",
+        "dlLink":"",
+        "video":""
+    }],
+    "HTML5" : [
+    {
+       "id" : "0015",
+        "name":"Standard ad",
+        "tag" : "HTML5",
+        "img" : "videoPlacholder.gif",
+        "desc" : "How to implement flashtalking manifest.js in your Standard ad",
+        "cta" : "",
+        "dlLink":"",
+        "video":""
+    },
+    {
+       "id" : "0016",
+        "name":"Standard ad",
+        "tag" : "HTML5",
+        "img" : "videoPlacholder.gif",
+        "desc" : "How to upload your Standard ad HTML5 file into the creative interface",
+        "cta" : "",
+        "dlLink":"",
+        "video":""
+    },
+    {
+       "id" : "0017",
+        "name":"Expandable",
+        "tag" : "HTML5",
+        "img" : "videoPlacholder.gif",
+        "desc" : "Using Expandable ads in your HTML 5 ad unit",
+        "cta" : "",
+        "dlLink":"",
+        "video":""
+    },
+    {
+       "id" : "0018",
+        "name":"Web Capture",
+        "tag" : "HTML5",
+        "img" : "videoPlacholder.gif",
+        "desc" : "Using Web Capture in your HTML 5 ad unit",
+        "cta" : "",
+        "dlLink":"",
+        "video":""
+    },
+    {
+       "id" : "0019",
+        "name":"Web Capture",
+        "tag" : "HTML5",
+        "img" : "videoPlacholder.gif",
+        "desc" : "Using Web Capture in your expanding HTML 5 ad unit",
+        "cta" : "",
+        "dlLink":"",
+        "video":""
+    },
+    {
+       "id" : "0020",
+        "name":"Instant ad",
+        "tag" : "HTML5",
+        "img" : "videoPlacholder.gif",
+        "desc" : "Uploading HTML 5 Instant ad vars to your unit",
+        "cta" : "",
+        "dlLink":"",
+        "video":""
+    }]
+}

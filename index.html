@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="en" ng-app="ftEDuApp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>FLASHTALKING EDU</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-status-bar-style" content="black">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="description" content="A flashtalking education platform that houses tutorials, vidoes, templates, how to's, and much more.">
+        <!--<link rel="stylesheet" type="text/css" href="style/main.css">-->
+        <link rel="stylesheet/less" type="text/css" href="css/styles.less">
+        <script src="js/less-1.7.0.min.js"></script>
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+        <script src="js/lib/angular/angular-animate.min.js"></script>
+        <script src="js/lib/angular/angular-route.min.js"></script>
+        <script src="js/edu_app.js"></script>
+        <script src="js/services/data.js"></script>
+        <script src="js/services/tutorialCard.js"></script>
+        <script src="js/controllers/headerNav.js"></script>
+        <script src="js/controllers/chapterMenu.js"></script>
+        <script src="js/controllers/dropDown.js"></script>
+        <script src="js/controllers/watchList.js"></script>
+        <script src="js/controllers/forumFeed.js"></script>
+        <script src="js/controllers/newsFeed.js"></script>
+        <script src="js/controllers/tutorialCards.js"></script>
+        <script src="js/controllers/nextVideo.js"></script>
+        <script src="js/controllers/videoPlayer.js"></script>
+        <script src="js/uaChk.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div id="fullContainer">
+            <header ng-include="'views/eduHeader.html'" ng-controller="headerNav"></header>
+            <div id="res_container">
+                <div id="sectionTest" class="hay3" ng-include="'views/videoPlayer.html'" ng-controller="videoPlayer">
+                </div>
+                <div id="tutorialContainer" class="hay0">
+                    <div id="tutorialHeaders" ng-include="'views/dropDownMenu.html'" ng-controller="dropDownMenu"></div>
+                </div>
+                <div class="clearFix"></div>
+                <section id="tutorials" class="tutorialCards" data-header="tutHeader" data-id="watchList">
+                    <h1 id="tutTitle" class="addBorderTopBottom hay0">WELCOME TO FT EDU - GETTING STARTED</h1>
+                </section>
+                <section id="watchList" class="tutorialCards" data-header="watchHeader" data-id="tutorials" ng-include="'views/watchList.html'" ng-controller="watchList"></section>
+                <aside id="sidebar" class="hay7">
+                    <div id="chapterContainer" class="hay7" ng-include="'views/chapterMenu.html'" ng-controller="chapterMenu"></div>
+                </aside>
+                <div class="sideBarContent" id="nextVideo" ng-include="'views/nextVideo.html'" ng-controller="nextVideo"></div>
+                <div class="sideBarContent" id="news" ng-include="'views/newsFeed.html'" ng-controller="newsFeed"></div>
+                <div class="sideBarContent" id="ftForum" ng-include="'views/forumFeed.html'" ng-controller="forumFeed"></div>
+
+                <div class="clearFix"></div>
+                <footer class="footerClass hay0">
+
+                    <!-- <div id="search" class="tag">Search:<input type="search" name="Search"></div>
+                 -->
+                </footer>
+
+            </div>
+
+        </div>
+
+        <script type="text/javascript" ng-init="initMain()"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>

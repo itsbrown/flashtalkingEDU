@@ -1,0 +1,14 @@
+<hgroup><h2 id="tutHeader" class="focusCollection">FT TUTORIALS&#32;/</h2><h2 id="watchHeader" class="nonfocusCollection">WATCH LISTS</h2></hgroup>
+<aside id="sortHeader"><h4>SORT BY:</h4></aside>
+<div class="sorter">
+    <ul id="adTypeSelectDropDown" class="select_box addBorder" ng-repeat='tutorial in _cards.ftEdu'>
+        <li ng-click="videoSelected(tutorial)">{{tutorial.name}}</li>
+    </ul>
+    <div class="imgArrow" id="adTypeImg"></div>
+</div>
+<div class="sorter">
+    <ul id="scriptSelectDropDown" class="select_box addBorder" ng-repeat='tutorial in _cards'>
+        <li ng-click="videoSelected(tutorial)">{{tutorial[0].tag}}</li>
+    </ul>
+    <div class="imgArrow" id="scriptTypeImg"></div>
+</div>
